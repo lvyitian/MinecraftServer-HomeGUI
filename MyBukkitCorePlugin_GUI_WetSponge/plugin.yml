@@ -1,0 +1,83 @@
+name: CorePluginGUIWS
+author: lvyitian
+version: 0.1
+main: corepluginguiWS.Main
+description: Core Plugin GUI WS Edition
+permissions: 
+  coreplugingui.*: 
+    description: All Permission
+    children:
+      coreplugingui.hat: true
+      coreplugingui.home.set: true
+      coreplugingui.home.teleport: true
+      coreplugingui.tpa.use: true
+      coreplugingui.admin: true
+      coreplugingui.homelist: true
+      coreplugingui.homeinfo: true
+      coreplugingui.home.del: true
+  coreplugingui.hat:
+    description: Gives access to use /hat command.
+    default: true
+  coreplugingui.home.set:
+    description: Gives access to use /sethome command.
+    default: true
+  coreplugingui.home.teleport:
+    description: Gives access to use /home command.
+    default: true
+  coreplugingui.tpa.use:
+    description: Give access to use /tpa command.
+    default: false
+  coreplugingui.admin:
+    description: Admin Permission
+    default: op
+  coreplugingui.homelist:
+    description: Gives access to use /homelist command.
+    default: true
+  coreplugingui.homeinfo:
+    description: Gives access to use /homeinfo command.
+    default: true
+  coreplugingui.home.del:
+    description: Gives access to use /delhome command.
+    default: true
+commands:
+  hat:
+    description: "You know"
+    usage: /hat
+    permission: coreplugingui.hat
+    permission-message: "No Enough Permission"
+  sethome: 
+   description: "You know"
+   usage: /sethome [number]
+   permission: coreplugingui.home.set
+   perimission-message: "No Enough Permission"
+  home: 
+    description: "You know"
+    usage: /home [number]
+    permission: coreplugingui.home.teleport
+    perimission-message: "No Enough Permission"
+  CorePlugin:
+    description: "Admin Command"
+    usage: /CorePlugin <ChildCommand>
+    permission: coreplugingui.admin
+    permission-message: "No Enough Permission"
+  tpa:
+    description: "You know"
+    usage: /tpa <Player>
+    permission: coreplugingui.tpa.use
+    permission-message: "No Enough Permission"
+  homelist:
+    description: "You know"
+    usage: /homelist [page]
+    permission: coreplugingui.homelist
+    permission-message: "No Enough Permission"
+  homeinfo:
+    description: "You know"
+    usage: /homeinfo [index]
+    permission: coreplugingui.homeinfo
+    permission-message: "No Enough Permission"
+  delhome:
+    description: "You know"
+    usage: /delhome [index]
+    permission: coreplugingui.home.del
+    permission-message: "No Enough Permission"
+ 

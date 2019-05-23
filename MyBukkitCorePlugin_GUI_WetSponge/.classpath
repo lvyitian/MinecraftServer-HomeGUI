@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/吕华方/Desktop/WetSponge-2.3.4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://degoos.com/javadocs/WetSponge/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/吕华方/Desktop/gson-2.8.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/吕华方/Desktop/gson-2.8.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/吕华方/Desktop/spongeapi-7.1.0-shaded.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://jd.spongepowered.org/7.1.0/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/吕华方/Desktop/多版本Akarin/akarin-1.12.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
