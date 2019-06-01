@@ -74,6 +74,7 @@ public class SetHomeCommand extends WSCommand{
 				  tempa.add(plugin.config.new Home(null,null).new HomeLocation(index,WSPlayer.class.cast(commandSource).getWorld().getName(),templ));
 			      plugin.config.HomeList.add(plugin.config.new Home(WSPlayer.class.cast(commandSource).getUniqueId().toString(),tempa));
 			      plugin.SaveConfig();
+			      commandSource.sendMessage("“—…Ë÷√º“: Index="+index+" !");
 			  }
 		  }
 		}catch(Throwable e) {}
