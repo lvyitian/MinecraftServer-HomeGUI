@@ -191,6 +191,7 @@ public class Main extends JavaPlugin implements Listener{
     				  tempa.add(config.new Home(null,null).new HomeLocation(index,Player.class.cast(sender).getWorld().getName(),templ));
     			      config.HomeList.add(config.new Home(Player.class.cast(sender).getUniqueId().toString(),tempa));
     			      SaveConfig();
+    			      sender.sendMessage("“—…Ë÷√º“: Index="+index+" !");
     			  }
     		  }
     	  return true;
